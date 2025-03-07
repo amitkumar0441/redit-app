@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reddit-clone
-        image: trainwithshubham/redit-app:latest
+        image: amitkumar0441/reditapp:${IMAGE_TAG}
         ports:
         - containerPort: 3000  
